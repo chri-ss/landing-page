@@ -1,0 +1,157 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header > * {
+    color: #F9FAF8;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+ul {
+    display: flex;
+    padding-left: 0;
+    gap: 2rem;
+}
+
+li {
+    list-style-type: none;
+}
+
+.blurb-and-image {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+    gap: 5rem;
+}
+
+.intro-and-signup {
+    color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 35%;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    margin: 0;
+}
+
+.dog-image {
+    max-width: 35%;
+    height: auto;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    width: 70%;
+    margin-bottom: 6rem;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.plant {
+    width: 100%;
+    border: 4px solid #3882f3;
+    border-radius: 5px;
+}
+
+p {
+    width: 100%;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 10rem 14rem 10rem 14rem;
+}
+
+.quote-body {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.action-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+}
+
+.action-box {
+    width: 80%;
+    padding: 2rem;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+}
+
+.action-text {
+    display: flex;
+    flex-direction: column;
+}
+
+h4 {
+    margin: 0;
+}
+
+.signup-push {
+    margin: 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: #1f2937;
+}
+
+.footer > * {
+    color: #E5E7EB;
+    text-decoration: none;
+}
